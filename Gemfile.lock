@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gene_by_gene (1.0.0)
+    gene_by_gene (1.0.1)
       faraday (>= 1.0.1, < 3.0)
       faraday-multipart
       marcel
