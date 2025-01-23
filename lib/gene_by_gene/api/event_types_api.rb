@@ -23,8 +23,8 @@ module GeneByGene
     # @option opts [String] :name 
     # @return [nil]
     def api_v2_event_types_get(opts = {})
-      api_v2_event_types_get_with_http_info(opts)
-      nil
+      data, status_code, headers = api_v2_event_types_get_with_http_info(opts)
+      data
     end
 
     # @param [Hash] opts the optional parameters
